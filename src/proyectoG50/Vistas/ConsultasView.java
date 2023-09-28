@@ -51,10 +51,9 @@ public class ConsultasView extends javax.swing.JInternalFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
 
         botonSalir.setBackground(new java.awt.Color(255, 204, 204));
-        botonSalir.setForeground(new java.awt.Color(0, 0, 0));
         botonSalir.setText("Salir");
         botonSalir.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(255, 51, 153), new java.awt.Color(255, 51, 102)));
         botonSalir.addActionListener(new java.awt.event.ActionListener() {
@@ -65,7 +64,6 @@ public class ConsultasView extends javax.swing.JInternalFrame {
 
         TitleGestionMateria.setBackground(new java.awt.Color(255, 255, 255));
         TitleGestionMateria.setFont(new java.awt.Font("Cambria", 1, 24)); // NOI18N
-        TitleGestionMateria.setForeground(new java.awt.Color(0, 0, 0));
         TitleGestionMateria.setText("Listado de Alumnos por Materia");
 
         jSeparator2.setBackground(new java.awt.Color(255, 255, 255));
@@ -73,17 +71,16 @@ public class ConsultasView extends javax.swing.JInternalFrame {
 
         TitleCodigo.setBackground(new java.awt.Color(255, 255, 255));
         TitleCodigo.setFont(new java.awt.Font("Cambria Math", 0, 18)); // NOI18N
-        TitleCodigo.setForeground(new java.awt.Color(0, 0, 0));
         TitleCodigo.setText("Seleccione un materia");
 
+        listarMateria.setBackground(new java.awt.Color(153, 153, 153));
         listarMateria.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 listarMateriaActionPerformed(evt);
             }
         });
 
-        TablaListas.setBackground(new java.awt.Color(255, 255, 255));
-        TablaListas.setForeground(new java.awt.Color(0, 0, 0));
+        TablaListas.setBackground(new java.awt.Color(153, 153, 153));
         TablaListas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},

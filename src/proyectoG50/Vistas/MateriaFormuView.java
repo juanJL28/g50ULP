@@ -37,20 +37,17 @@ public class MateriaFormuView extends javax.swing.JInternalFrame {
         TitleGestionMateria = new javax.swing.JLabel();
         TitleCodigo = new javax.swing.JLabel();
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
 
         TitleNombre.setBackground(new java.awt.Color(255, 255, 255));
         TitleNombre.setFont(new java.awt.Font("Cambria Math", 0, 18)); // NOI18N
-        TitleNombre.setForeground(new java.awt.Color(0, 0, 0));
         TitleNombre.setText("Nombre");
 
         TitleAño.setBackground(new java.awt.Color(255, 255, 255));
         TitleAño.setFont(new java.awt.Font("Cambria Math", 0, 18)); // NOI18N
-        TitleAño.setForeground(new java.awt.Color(0, 0, 0));
         TitleAño.setText("Año");
 
         ButtonSalir.setBackground(new java.awt.Color(255, 204, 204));
-        ButtonSalir.setForeground(new java.awt.Color(0, 0, 0));
         ButtonSalir.setText("Salir");
         ButtonSalir.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(255, 51, 153), new java.awt.Color(255, 51, 102)));
         ButtonSalir.addActionListener(new java.awt.event.ActionListener() {
@@ -66,13 +63,11 @@ public class MateriaFormuView extends javax.swing.JInternalFrame {
 
         TitleEstado.setBackground(new java.awt.Color(255, 255, 255));
         TitleEstado.setFont(new java.awt.Font("Cambria Math", 0, 18)); // NOI18N
-        TitleEstado.setForeground(new java.awt.Color(0, 0, 0));
         TitleEstado.setText("Estado");
 
         TextForNombre.setBackground(new java.awt.Color(220, 220, 220));
 
         ButtonNuevo.setBackground(new java.awt.Color(153, 204, 255));
-        ButtonNuevo.setForeground(new java.awt.Color(0, 0, 0));
         ButtonNuevo.setText("Nuevo");
         ButtonNuevo.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 153, 255), new java.awt.Color(0, 204, 255)));
         ButtonNuevo.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +84,6 @@ public class MateriaFormuView extends javax.swing.JInternalFrame {
         });
 
         ButtonGuardar.setBackground(new java.awt.Color(204, 255, 204));
-        ButtonGuardar.setForeground(new java.awt.Color(0, 0, 0));
         ButtonGuardar.setText("Guardar");
         ButtonGuardar.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 255, 51), new java.awt.Color(0, 204, 0)));
         ButtonGuardar.addActionListener(new java.awt.event.ActionListener() {
@@ -99,7 +93,6 @@ public class MateriaFormuView extends javax.swing.JInternalFrame {
         });
 
         BotonBuscar.setBackground(new java.awt.Color(204, 204, 255));
-        BotonBuscar.setForeground(new java.awt.Color(0, 0, 0));
         BotonBuscar.setText("Buscar");
         BotonBuscar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED, new java.awt.Color(102, 102, 255), new java.awt.Color(102, 102, 255), new java.awt.Color(153, 153, 255), new java.awt.Color(153, 102, 255)));
         BotonBuscar.setMaximumSize(new java.awt.Dimension(76, 26));
@@ -121,7 +114,6 @@ public class MateriaFormuView extends javax.swing.JInternalFrame {
         });
 
         ButtonEliminar.setBackground(new java.awt.Color(255, 204, 204));
-        ButtonEliminar.setForeground(new java.awt.Color(0, 0, 0));
         ButtonEliminar.setText("Eliminar");
         ButtonEliminar.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(255, 102, 102), new java.awt.Color(255, 51, 51)));
         ButtonEliminar.addActionListener(new java.awt.event.ActionListener() {
@@ -132,12 +124,10 @@ public class MateriaFormuView extends javax.swing.JInternalFrame {
 
         TitleGestionMateria.setBackground(new java.awt.Color(255, 255, 255));
         TitleGestionMateria.setFont(new java.awt.Font("Cambria", 0, 24)); // NOI18N
-        TitleGestionMateria.setForeground(new java.awt.Color(0, 0, 0));
         TitleGestionMateria.setText("Gestión de Materias ");
 
         TitleCodigo.setBackground(new java.awt.Color(255, 255, 255));
         TitleCodigo.setFont(new java.awt.Font("Cambria Math", 0, 18)); // NOI18N
-        TitleCodigo.setForeground(new java.awt.Color(0, 0, 0));
         TitleCodigo.setText("Código");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

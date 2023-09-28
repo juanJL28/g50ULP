@@ -3,7 +3,7 @@ package proyectoG50.Entidades;
 
 import java.time.LocalDate;
 
-/* @author Programita  */
+
 public class Alumno {
     private int idAlumno;
     private int dni;
@@ -12,7 +12,7 @@ public class Alumno {
     private LocalDate fechaNacimiento;
     private boolean estado;
     
-    //era "activo", no "estado" xd
+   
     
     public Alumno() {
     }

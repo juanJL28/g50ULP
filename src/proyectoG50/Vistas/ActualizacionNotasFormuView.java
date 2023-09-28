@@ -42,10 +42,9 @@ public class ActualizacionNotasFormuView extends javax.swing.JInternalFrame {
         tablaListas = new javax.swing.JTable();
         CBListaDeAlumnos = new javax.swing.JComboBox<>();
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
 
         jBGuardar.setBackground(new java.awt.Color(153, 204, 255));
-        jBGuardar.setForeground(new java.awt.Color(0, 0, 0));
         jBGuardar.setText("Guardar");
         jBGuardar.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 153, 255), new java.awt.Color(0, 204, 255)));
         jBGuardar.addActionListener(new java.awt.event.ActionListener() {
@@ -55,7 +54,6 @@ public class ActualizacionNotasFormuView extends javax.swing.JInternalFrame {
         });
 
         BotonSalir.setBackground(new java.awt.Color(255, 204, 204));
-        BotonSalir.setForeground(new java.awt.Color(0, 0, 0));
         BotonSalir.setText("Salir");
         BotonSalir.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(255, 51, 153), new java.awt.Color(255, 51, 102)));
         BotonSalir.addActionListener(new java.awt.event.ActionListener() {
@@ -66,7 +64,6 @@ public class ActualizacionNotasFormuView extends javax.swing.JInternalFrame {
 
         TitleGestionMateria.setBackground(new java.awt.Color(255, 255, 255));
         TitleGestionMateria.setFont(new java.awt.Font("Cambria", 1, 24)); // NOI18N
-        TitleGestionMateria.setForeground(new java.awt.Color(0, 0, 0));
         TitleGestionMateria.setText("Carga de Notas");
 
         jSeparator2.setBackground(new java.awt.Color(255, 255, 255));
@@ -74,11 +71,9 @@ public class ActualizacionNotasFormuView extends javax.swing.JInternalFrame {
 
         TitleCodigo.setBackground(new java.awt.Color(255, 255, 255));
         TitleCodigo.setFont(new java.awt.Font("Cambria Math", 1, 18)); // NOI18N
-        TitleCodigo.setForeground(new java.awt.Color(0, 0, 0));
         TitleCodigo.setText("Seleccione un alumno");
 
-        tablaListas.setBackground(new java.awt.Color(255, 255, 255));
-        tablaListas.setForeground(new java.awt.Color(0, 0, 0));
+        tablaListas.setBackground(new java.awt.Color(153, 153, 153));
         tablaListas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -91,16 +86,18 @@ public class ActualizacionNotasFormuView extends javax.swing.JInternalFrame {
             }
         ));
         tablaListas.addInputMethodListener(new java.awt.event.InputMethodListener() {
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
+            }
             public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
                 tablaListasInputMethodTextChanged(evt);
-            }
-            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
             }
         });
         jScrollPane3.setViewportView(tablaListas);
 
         jScrollPane1.setViewportView(jScrollPane3);
 
+        CBListaDeAlumnos.setBackground(new java.awt.Color(153, 153, 153));
+        CBListaDeAlumnos.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         CBListaDeAlumnos.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 CBListaDeAlumnosItemStateChanged(evt);

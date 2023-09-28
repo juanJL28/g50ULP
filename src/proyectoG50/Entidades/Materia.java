@@ -7,7 +7,6 @@ public class Materia {
     private int anioMateria;
     private boolean estado;
     
-    //bueno, lo mismo que en alumno, pusieron "activo"
 
     public Materia() {
     }

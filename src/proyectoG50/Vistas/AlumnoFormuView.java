@@ -44,36 +44,29 @@ public class AlumnoFormuView extends javax.swing.JInternalFrame {
         setBackground(new java.awt.Color(255, 255, 255));
         setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
 
         JLformualumno.setFont(new java.awt.Font("Cambria", 1, 24)); // NOI18N
-        JLformualumno.setForeground(new java.awt.Color(0, 0, 0));
         JLformualumno.setText("Almuno ");
 
         jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Documento : ");
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Apellido :");
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Nombre :");
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Estado :");
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Fecha de Nacimiento :");
 
         jbNuevo.setBackground(new java.awt.Color(153, 204, 255));
-        jbNuevo.setForeground(new java.awt.Color(0, 0, 0));
         jbNuevo.setText("Nuevo");
         jbNuevo.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jbNuevo.addActionListener(new java.awt.event.ActionListener() {
@@ -83,7 +76,6 @@ public class AlumnoFormuView extends javax.swing.JInternalFrame {
         });
 
         jbEliminar.setBackground(new java.awt.Color(255, 204, 204));
-        jbEliminar.setForeground(new java.awt.Color(0, 0, 0));
         jbEliminar.setText("Eliminar");
         jbEliminar.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jbEliminar.addActionListener(new java.awt.event.ActionListener() {
@@ -93,7 +85,6 @@ public class AlumnoFormuView extends javax.swing.JInternalFrame {
         });
 
         jbGuardar.setBackground(new java.awt.Color(204, 255, 204));
-        jbGuardar.setForeground(new java.awt.Color(0, 0, 0));
         jbGuardar.setText("Guardar");
         jbGuardar.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jbGuardar.addActionListener(new java.awt.event.ActionListener() {
@@ -103,7 +94,6 @@ public class AlumnoFormuView extends javax.swing.JInternalFrame {
         });
 
         jbSalir.setBackground(new java.awt.Color(204, 204, 255));
-        jbSalir.setForeground(new java.awt.Color(0, 0, 0));
         jbSalir.setText("Salir");
         jbSalir.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jbSalir.addActionListener(new java.awt.event.ActionListener() {
@@ -123,7 +113,6 @@ public class AlumnoFormuView extends javax.swing.JInternalFrame {
         jbotonEstado.setText("Fn");
 
         BotonBuscar.setBackground(new java.awt.Color(204, 204, 255));
-        BotonBuscar.setForeground(new java.awt.Color(0, 0, 0));
         BotonBuscar.setText("Buscar");
         BotonBuscar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED, new java.awt.Color(102, 102, 255), new java.awt.Color(102, 102, 255), new java.awt.Color(153, 153, 255), new java.awt.Color(153, 102, 255)));
         BotonBuscar.setMaximumSize(new java.awt.Dimension(76, 26));
@@ -137,7 +126,7 @@ public class AlumnoFormuView extends javax.swing.JInternalFrame {
 
         jdFechaNacimiento.setBackground(new java.awt.Color(204, 255, 255));
         jdFechaNacimiento.setBorder(javax.swing.BorderFactory.createEtchedBorder(null, java.awt.Color.blue));
-        jdFechaNacimiento.setForeground(new java.awt.Color(255, 255, 255));
+        jdFechaNacimiento.setForeground(new java.awt.Color(153, 153, 153));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

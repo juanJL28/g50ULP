@@ -62,16 +62,14 @@ private DefaultTableModel modelo = new DefaultTableModel();
         jScrollPane3 = new javax.swing.JScrollPane();
         tablaListas = new javax.swing.JTable();
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
         jPanel1.setEnabled(false);
 
         TitleNombre.setBackground(new java.awt.Color(255, 255, 255));
         TitleNombre.setFont(new java.awt.Font("Cambria Math", 1, 18)); // NOI18N
-        TitleNombre.setForeground(new java.awt.Color(0, 0, 0));
         TitleNombre.setText("Listado de Materia");
 
         botonSalir.setBackground(new java.awt.Color(255, 204, 204));
-        botonSalir.setForeground(new java.awt.Color(0, 0, 0));
         botonSalir.setText("Salir");
         botonSalir.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(255, 51, 153), new java.awt.Color(255, 51, 102)));
         botonSalir.addActionListener(new java.awt.event.ActionListener() {
@@ -84,7 +82,6 @@ private DefaultTableModel modelo = new DefaultTableModel();
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
 
         botonInscribir.setBackground(new java.awt.Color(153, 204, 255));
-        botonInscribir.setForeground(new java.awt.Color(0, 0, 0));
         botonInscribir.setText("Inscribir");
         botonInscribir.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 153, 255), new java.awt.Color(0, 204, 255)));
         botonInscribir.addActionListener(new java.awt.event.ActionListener() {
@@ -94,7 +91,6 @@ private DefaultTableModel modelo = new DefaultTableModel();
         });
 
         botonAnularInscripcion.setBackground(new java.awt.Color(255, 204, 204));
-        botonAnularInscripcion.setForeground(new java.awt.Color(0, 0, 0));
         botonAnularInscripcion.setText("Anular Inscripcion");
         botonAnularInscripcion.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(255, 102, 102), new java.awt.Color(255, 51, 51)));
         botonAnularInscripcion.addActionListener(new java.awt.event.ActionListener() {
@@ -105,16 +101,13 @@ private DefaultTableModel modelo = new DefaultTableModel();
 
         TitleGestionMateria.setBackground(new java.awt.Color(255, 255, 255));
         TitleGestionMateria.setFont(new java.awt.Font("Cambria", 1, 24)); // NOI18N
-        TitleGestionMateria.setForeground(new java.awt.Color(0, 0, 0));
         TitleGestionMateria.setText("Formulario De Inscripciones ");
 
         TitleCodigo.setBackground(new java.awt.Color(255, 255, 255));
         TitleCodigo.setFont(new java.awt.Font("Cambria Math", 0, 18)); // NOI18N
-        TitleCodigo.setForeground(new java.awt.Color(0, 0, 0));
         TitleCodigo.setText("Seleccione un alumno");
 
-        jMateriasInscriptas.setBackground(new java.awt.Color(255, 255, 255));
-        jMateriasInscriptas.setForeground(new java.awt.Color(0, 0, 0));
+        jMateriasInscriptas.setBackground(new java.awt.Color(153, 153, 153));
         jMateriasInscriptas.setText("Materias Inscriptas");
         jMateriasInscriptas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,8 +115,7 @@ private DefaultTableModel modelo = new DefaultTableModel();
             }
         });
 
-        jMateriaNoInscriptas.setBackground(new java.awt.Color(255, 255, 255));
-        jMateriaNoInscriptas.setForeground(new java.awt.Color(0, 0, 0));
+        jMateriaNoInscriptas.setBackground(new java.awt.Color(153, 153, 153));
         jMateriaNoInscriptas.setText("Materias no inscriptas");
         jMateriaNoInscriptas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,12 +123,14 @@ private DefaultTableModel modelo = new DefaultTableModel();
             }
         });
 
+        jComboListarAlumno.setBackground(new java.awt.Color(153, 153, 153));
         jComboListarAlumno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboListarAlumnoActionPerformed(evt);
             }
         });
 
+        tablaListas.setBackground(new java.awt.Color(153, 153, 153));
         tablaListas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},

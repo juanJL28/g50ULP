@@ -6,8 +6,6 @@ public class Inscripcion {
     private Materia materia;
     private double nota;
     
-    //acá si está todo joya
-
     public Inscripcion(int idInscripcion, Alumno alumno, Materia materia, double nota) {
         this.idInscripcion = idInscripcion;
         this.alumno = alumno;
